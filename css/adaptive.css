@@ -1,0 +1,181 @@
+@media (max-width: 992px) {
+    .testimonials-circle__block {
+        bottom: 30px;
+    }
+    .menu__bar {
+        display: block;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        top: 81px;
+        background: #fff;
+        left: -15px;
+        margin: 0;
+        width: 103.3%;
+    }
+    .menu.active {
+        display: block;
+    }
+    .headerFlex ul {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .headerFlex ul li {
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+        text-align: center;
+    }
+    .logo {
+        margin-bottom: 30px;
+    }
+    .blockIntro__about {
+        display: none;
+    }
+    .aboutInfo {
+        flex-direction: column;
+    }
+    .aboutText {
+        max-width: 100%;
+        position: relative;
+    }
+    .bgAbout {
+        max-width: 100%;
+    }
+    .imgAbout {
+        height: 500px;
+    }
+    .linearGrad {
+        width: 100%;
+    }
+    .allBlogs {
+        flex-direction: column;
+    }
+    .blog__active {
+        width: auto;
+        flex: 1 1 100%;
+    }
+    .blog__block {
+        flex: 1 1 45% !important;
+    }
+}
+@media (max-width: 860px) {
+    .testimonials__block {
+        flex-direction: column;
+    }
+    .testimonials__block-image, .linearGradient {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .testimonals {
+        height: 910px;
+    }
+    .testimonials__block-info {
+        padding: 40px;
+    }
+}
+@media (max-width: 800px) {
+    .footer__item {
+        flex: 1 1 50%;
+    }
+    .work-steps__image {
+        display: none;
+    }
+    .work-steps__about {
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .about_person {
+        display: block;
+    }
+    .about_person-link {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .ul {
+        padding: 10px;
+        display: flex;
+    }
+    .ul .li {
+        margin: 0 10px;
+    }
+    .share__block::after {
+        display: none;
+    }
+}
+@media (max-width: 680px) {
+    .testimonals {
+        height: 860px;
+    }
+}
+@media (max-width: 600px) {
+    .testimonals {
+        height: 800px;
+    }
+}
+@media (max-width: 576px) {
+    .formTouch input, .formTouch textarea {
+        width: 70%;
+    }
+    .blockAbout {
+        padding: 0 25px;
+    }
+    .intro {
+        padding-top: 100px;
+    }
+    .linearGrad {
+        display: none;
+    }
+    .aboutTitle, .aboutInfoText {
+        padding: 10px;
+    }
+    .ul {
+        display: block;
+    }
+    .stats >div {
+        margin: 20px 10px;
+    }
+    .work-steps__about {
+        padding: 10px;
+    }
+    .pricing__block {
+        padding: 30px;
+    }
+    .testimonials__block-info {
+        padding: 30px;
+    }
+    .testimonials-circle__block {
+        bottom: 0;
+    }
+}
+@media (max-width: 570px) {
+    .testimonals {
+        height: 720px;
+    }
+}
+@media (max-width: 400px) {
+    .footer__item {
+        flex: 1 1 100%;
+    }
+    .whySelect__block {
+        flex: 1 1 50%;
+    }
+    .formTouch input {
+        width: 100%;
+    }
+    .formTouch textarea {
+        width: 95%;
+    }
+}
+@media (max-width: 350px) {
+    .ourTeam-about_person {
+        padding: 10px;
+    }
+    .testimonals {
+        height: 950px;
+    }
+}
+
